@@ -1,0 +1,20 @@
+import React from 'react'
+
+const  REcom = (props) => {
+    console.log(props)
+    return (
+        <div>
+            
+            <div class="card" style= {{width:"400px"}}>
+               {/* <img class="card-img-top" src="img_avatar1.png" alt="Card image"/> */}
+               <div class="card-body">
+              <h4 class="card-title">{props.name}</h4>
+               <p class="card-text">{props.text}</p>
+               <a href="#" class="btn btn-primary">{props.btn}</a>
+            </div>
+          </div>
+        </div>
+    )
+}
+
+export default REcom
