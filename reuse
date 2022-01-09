@@ -1,0 +1,14 @@
+import React from "react";
+const Reuse = (props) =>{
+    console.log(props.children)
+    return(
+        <>
+            
+            <div className="container">
+               {props.children}
+            </div>
+        </>
+    )
+}
+
+export default Reuse;
